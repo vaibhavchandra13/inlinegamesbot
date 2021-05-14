@@ -33,11 +33,5 @@
       "value": "",
       "required": false
     }
-  },
-  "scripts": {
-    "postdeploy": [
-      "php bin/console install",
-      "php bin/console set"
-    ]
   }
 }
